@@ -24,6 +24,15 @@
 
 `pip3 install wxpython`
 
+在 macOS 上尝试打包：
+
+```
+pip3 install py2app
+py2applet --make-setup App.py
+python3 setup.py py2app -A # python3 setup.py py2app 暂未成功
+```
+
+在 Linux 上打包：`pyinstaller App.py`
 
 3 下载程序进入主目录，终端下运行`python App.py `
 
