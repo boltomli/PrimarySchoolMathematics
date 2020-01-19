@@ -10,3 +10,5 @@ docx
 
 config.ini
 App.spec
+build/
+dist/

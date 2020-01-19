@@ -17,14 +17,16 @@
    pip3 install python-docx
    pip3 install wxpython
    ```
+1. `git clone --depth=1 https://github.com/boltomli/PrimarySchoolMathematics && cd PrimarySchoolMathematics`
    * 在 macOS 上尝试打包
       ```
       pip3 install py2app
       py2applet --make-setup App.py
       python3 setup.py py2app -A # python3 setup.py py2app 暂未成功
       ```
-   * 在 Linux 上打包`pyinstaller App.py`
-   * 下载程序进入主目录，终端下运行`python App.py`
+   * 在 Linux 上打包 `pyinstaller App.py`
+   * 在 Windows 上打包 `pyinstaller -w App.py`
+   * 下载程序进入主目录，终端下运行 `python App.py`
 
 ### 程序界面截图
 
